@@ -1,26 +1,67 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <header>
+      <navBar />
+    </header>
+    <homE />
+
+    <main>
+
+      <div class="col-span-1">
+        <aboutUs />
+      </div>
+
+
+
+      <hr class="my-12 w-96 ml-[550px] border border-2 border-yellow-500 bg-yellow-500" />
+      <paraEllos />
+      <hr class="my-24 w-96 ml-[550px] border border-2 border-yellow-500 bg-yellow-500" />
+      <paraEllas />
+      <hr class="my-24 w-96 ml-[550px] border border-2 border-yellow-500 bg-yellow-500" />
+      <todalaFamilia />
+
+      <horarioS/>
+    </main>
+
+
+
+    <footer>
+      <contacTo />
+    </footer>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import navBar from "./components/navBar.vue";
+import homE from "./components/homE.vue";
+import paraEllos from "./components/paraEllos.vue";
+import paraEllas from "./components/paraEllas.vue";
+import todalaFamilia from "./components/todalaFamilia.vue";
+import contacTo from "./components/contacTo.vue";
+import aboutUs from "./components/aboutUs.vue";
+import horarioS from "./components/horarioS.vue";
+
+
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    navBar,
+    homE,
+    paraEllos,
+    paraEllas,
+    todalaFamilia,
+    contacTo,
+    aboutUs,
+    horarioS,
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 </style>
