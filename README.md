@@ -8,5 +8,5 @@ In this case we recreated a Barber page, making it responsive for all types of s
 
 **To do this challenge, you need a basic understanding of HTML, CSS, Vue and Tailwind.**
 
-![https://github.com/Camilamellizo/barberShop]()
+![https://github.com/Camilamellizo/barberShop](https://raw.githubusercontent.com/Camilamellizo/barberShop/main/1.jpg)
 
