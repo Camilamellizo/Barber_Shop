@@ -1,9 +1,9 @@
 <template>
   <div class="w-[67rem] ml-[225px] mt-16">
-    <div class=" bg-letras bg-no-repeat bg-center">
+    <div >
         <div>
-            <h1 class="text-yellow-500 font-bold font-serif text-2xl pt-4 mb-4 text-center">
-        DOS SALONES - UN ECOSISTEMA
+            <h1 class="text-yellow-500 font-bold font-serif text-4xl py-4 mb-4 text-center">
+                · DOS SALONES - UN ECOSISTEMA ·
       </h1>
         </div>
       

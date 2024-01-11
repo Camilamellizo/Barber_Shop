@@ -1,9 +1,9 @@
 <template>
-    <div>
-        <div>
-            <h1 class="text-center text-yellow-500 font-bold text-4xl  font-serif mt-10 ">· ¿Donde Estamos? ·</h1>
+    <div class="py-10">
+        <div class="my-10">
+            <h1 class="text-center text-yellow-500 font-bold text-4xl  font-serif">· ¿Donde Estamos? ·</h1>
         </div>
-        <div class="grid grid-cols-2  ml-[225px] my-10">
+        <div class="grid grid-cols-2  ml-[225px]">
 
             <div class="col-span-1 ">
                 <iframe
@@ -15,15 +15,15 @@
             <div class="col-span-1 grid content-center">
                 
                     <div>
-                        <h2 class="text-yellow-600 font-bold text-lg font-serif">Rocket barber shop / UP DO Salon</h2>
+                        <h2 class="text-yellow-600 font-bold text-2xl font-serif">Rocket barber shop / UP DO Salon</h2>
                     </div>
-                    <div class="my-2">
-                        <h1 class="text-yellow-500 font-bold text-2xl  font-serif"> Carrer de Provença, 365</h1>
+                    <div>
+                        <h1 class=" font-bold text-2xl  font-serif"> Carrer de Provença, 365</h1>
                         <h2 class="text-yellow-600 font-bold text-lg font-serif">08025 Barcelona España</h2>
 
                     </div>
-                    <div class="mt-8">
-                        <p class="text-yellow-600 font-bold text-lg font-serif"> teléfonos</p>
+                    <div class="pt-4">
+                        <p class=" font-bold text-lg font-serif"> teléfonos</p>
                         <ul class="text-yellow-500 font-bold text-xl  font-serif">
                             <li>930 27 77 54</li>
                             <li>611 05 59 51</li>

@@ -2,7 +2,7 @@
   <div class="h-36">
 
   </div>
- <nav class="navbar bg-black drop-shadow-lg dark:bg-gray-800 dark:border-gray-700 ">
+ <nav class="navbar  drop-shadow-lg dark:bg-gray-800 dark:border-gray-700 ">
   <div class="container mx-auto grid grid-cols-5">
 
        <div class="col-span-1 ml-8">      
@@ -15,16 +15,16 @@
         <li>
           <a href="#" class="text-yellow-500 font-bold text-base  font-serif block py-2 pl-3 pr-4   rounded md:bg-transparent md:text-text-yellow-500  font-serif md:hover:text-white  md:p-0 md:dark:text-white dark:bg-blue-700 font-bold text-base md:dark:bg-transparent" aria-current="page">HOME</a>
         </li>
-        <span class="text-white">·</span>
+        <span class="text-yellow-600">·</span>
         <li>
           <a href="#" class="text-yellow-600 font-bold text-base  font-serif block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">UPDO SALON</a>
         </li>
-        <span class="text-white">·</span>
+        <span class="text-yellow-600">·</span>
      
         <li>
           <a href="#" class="text-yellow-600 font-bold text-base  font-serif block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">BARBER SHOP</a>
         </li>
-        <span class="text-white">·</span>
+        <span class="text-yellow-600">·</span>
 
         <li>
           <a href="#" class="text-yellow-600 font-bold text-base  font-serif block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">OPTENER PRESUPUESTO</a>
@@ -35,7 +35,14 @@
     
 
     <div class="col-span-1 grid place-items-center  pt-6">
- <button class="button text-yellow-500 font-bold font-serif ">Reservar</button>
+      <div class="flex">
+      <div>
+        <button class="button text-yellow-600 font-bold font-serif ">Reservar</button>
+      </div>
+      <div class="bg-yellow-600 w-10 h-10 rounded-full ml-8">
+       <img src="@/assets/instagram.png" alt="icono Instagram">
+      </div>
+    </div>
 
 </div>
   </div>

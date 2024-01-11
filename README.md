@@ -1,24 +1,12 @@
-# barber
+# Barber Shop
 
-## Project setup
-```
-npm install
-```
+## Welcome! 👋
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+This challenges help to improve coding skills by building realistic projects.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+In this case we recreated a Barber page, making it responsive for all types of screens.
 
-### Lints and fixes files
-```
-npm run lint
-```
+**To do this challenge, you need a basic understanding of HTML, CSS, Vue and Tailwind.**
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![https://github.com/Camilamellizo/barberShop]()
+

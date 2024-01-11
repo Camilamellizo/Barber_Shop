@@ -10,9 +10,6 @@
       <div class="col-span-1">
         <aboutUs />
       </div>
-
-
-
       <hr class="my-12 w-96 ml-[550px] border border-2 border-yellow-500 bg-yellow-500" />
       <paraEllos />
       <hr class="my-24 w-96 ml-[550px] border border-2 border-yellow-500 bg-yellow-500" />
